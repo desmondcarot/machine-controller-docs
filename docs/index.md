@@ -57,3 +57,12 @@ project-root/
 └── requirements.txt               # Python dependencies
 
 ```
+
+---
+# Thanks!
+
+<div style="padding: 1em; background: #f9f9f9; border: 1px solid #ddd; margin-top:40px">
+  <h2 style="color: teal;">🚀 Custom HTML Section</h2>
+  <p>You can embed <strong>HTML</strong> directly into your Markdown files in MkDocs.</p>
+  <a href="getting-started/" style="color: blue;">Start Here →</a>
+</div>
