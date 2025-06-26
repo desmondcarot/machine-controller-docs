@@ -1,0 +1,39 @@
+site_name: Machine Controller Docs
+site_url: http://localhost/mydocs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Overview:
+    - Home: index.md
+    - Setup: settingup.md
+    - Architecture: architecture.md
+    - Examples: example.md
+  - Modules:
+    - Machine: modules/machine.md
+    - SerialConnection: modules/serialconnection.md
+    - CameraRepo: modules/camerarepo.md
+    - Device: modules/device.md
+    - MachineController: modules/machinecontroller.md
+    - Empty: modules/empty.md
+  - Web:
+    - Empty: web/empty.md
+
+plugins:
+  - search
